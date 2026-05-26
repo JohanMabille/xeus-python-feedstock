@@ -1,6 +1,6 @@
 context:
   version: "0.19.0"
-  build_number: 1
+  build_number: 2
 
 package:
   name: xeus-python
@@ -37,7 +37,7 @@ requirements:
     - nlohmann_json-abi
   run:
     - python
-    - xeus-python-shell >=0.7.0,<0.8
+    - xeus-python-shell >=0.7.0,<0.9
     - debugpy >=1.1.0,<2.0
     - pygments >=2.3.1,<3
 
