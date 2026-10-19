@@ -35,6 +35,9 @@ requirements:
     - pybind11_json >=0.2.6,<0.3
     - nlohmann_json
     - nlohmann_json-abi
+    - if: unix
+      then:
+        - libpython
   run:
     - python
     - xeus-python-shell >=0.7.0,<0.9
